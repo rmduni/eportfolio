@@ -46,45 +46,89 @@
 
 									<!-- Content -->
 										<!-- <h2 id="content">Sample Content</h2>-->
-										<p>During this module we have worked on many interesting topics both in a group and individually. These are the documents I have produced.</p>
+										<p>During this module we have worked on many interesting assignments both in a group and individually. Here are the main assignments:</p>
+										<h3>1.	Discussion forum about a Medical Mannequin case study</h3>
+										<p>This was the first assignment in the module. It served as an introduction to security issues faced by medical devices mainly caused by the general poor security associated to the configuration of WIFI technologies. It also helped us to realise the importance of the implementation of security measures to prevent attacks on vital services like medical devices as well as the importance to preserve the confidentiality of personal data. It also highlighted the fact that Information Security also has a human factor and security awareness campaigns and user trainings are necessary to improve protection.</p>
+										<ul class="actions">
+											<li><a target="blank" href="https://www.my-course.co.uk/mod/hsuforum/discuss.php?d=266788" class="button small">Learn More</a></li>
+										</ul>
+										<hr class="major" />
+										<h3>2. Discussion forum about network scanning</h3>
+										<p>The discussion forum post presented below was produced after a long learning process that included research, selection of tools, configuration of the target environment, assessment of the security aspects in the target server to find vulnerabilities and attempt to exploit found vulnerabilities.</br></br> 
+										The first step was to individually research about network security and penetration testing from diverse sources including articles, specialised sites, and subject specific works in order to get familiar with the penetration testing process and the most common open-source tools used by experts. Then we got together to evaluate and select the best tools for our exercise. As it can be seen in this <a target="blank" href="https://rmduni.github.io/eportfolio/files/m2PenTestTools.pdf">presentation</a>, we evaluated tools like Nmap, openVas, Nikto and SqlMap. As Kali Linux is the tool recommended by many experts right now, we performed our vulnerability assessment in the target server with this tool. As seen in the post, first we used commands to get information about the components of the target server, nslookup, whois, traceroute, tracert, and finally we used Nmap to scan available hosts on the network, the services they offer, the OS on which they are operating and the firewall that they are currently using. The test showed that the only ports found open were ports 80 (HTTP) and 22 (SSH).</br></br>
+										For the exercise we had to set-up a simple website in the AWS environment und use it as target server. In fact, the server configured by our group served as the target server for our opposite group, and likewise we used the server they had configured to perform our tests. We faced some difficulties in setting up the testing environment due to the inexperience of using environment (AWS Services) and to some general technical issues with our account in AWS that affected both our group and the opposite group. Once both groups managed to set-up the environment as requested, we started with the reconnaissance part.</br></br>
+										We managed to find several vulnerabilities and to exploit a server vulnerability and launch a Denial of Service (DoS) attack with hping.
+										</p>
+										<ul class="actions">
+											<li><a target="blank" href="files/m2AssignmentU6.pdf" class="button small">Learn More</a></li>
+										</ul>
+										<hr class="major" />
+										<h3>3. Discussion forum about General Data Protection Regulation (GDPR) case</h3>
+										<p>This was an individual assignment that consisted on reading about several <a target="blank" href="https://dataprotection.ie/en/pre-gdpr/case-studies">case studies</a> published by the Protection Commission from 2014 to 2018 concerning GDPR related issues and breaches and then select one case to discuss the GDPR violations and suggest mitigation measures. All cases were interesting and instructive and presented many different types of GDPR violations. It was useful to see real cases and their connections with the particular GDPR articles that were violated. I chose to work on a CCTV case which I found interesting because, at first sight, it seemed that all the regulations were respected but one detail was overseen, and this detail made the whole case non-compliant with GDPR. This shows that organisations need to consider all the legal aspects when they share CCTV footage or another kind of personal information.</p>
+										<ul class="actions">
+											<li><a target="blank" href="files/m2AssignmentU6.pdf" class="button small">Learn More</a></li>
+										</ul>
+										<hr class="major" />
+										<h3>4. Network Information Security Assessment Report</h3>
+										<p>The vulnerability assessment and penetration testing exercise presented in the second artifact, was also the basis for producing this report that uses a bottom-up approach for examining and presenting the system vulnerabilities through the OSI model layered structure from physical to application layer. This approach was interesting to match the vulnerabilities with the layer where they occur. The report is focused on the tools and process used for the scanning of the target system. We also used the STRIDE threat modelling methodology to match vulnerabilities with STRIDE properties, but the result was not presented in the report. Our report is more technical oriented and one part that could have been better explained was the methodology and approaches we used for the vulnerability assessment and penetration testing.</p>
+										<ul class="actions">
+											<li><a target="blank" href="files/m2AssignmentU6.pdf" class="button small">Learn More</a></li>
+										</ul>
+										<hr class="major" />
+										<h3>5. Executive Summary</h3>
+										<p>This assignment was more business-oriented and the goal was to produce an executive summary for business management. We used the STRIDE threat modelling framework to identify and present vulnerabilities. We presented the security and business impacts associated to the vulnerabilities and risk evaluation using common market standards. Furthermore, as we had to combine all the previous evidence with two security standards, for a holistic approach we matched vulnerabilities with GDPR and Payment Card Industry Data Security Standard (PCI DSS). This shows that technical vulnerabilities can be linked to non-compliance.
+										</p>
+										<ul class="actions">
+											<li><a target="blank" href="files/m2AssignmentU6.pdf" class="button small">Learn More</a></li>
+										</ul>
+										<hr class="major" />
+										<h3>Evaluation of Network Information Security Assessment Report vs. Executive Summary</h3>
+										<p>The Network Information Security Assessment Report was the base line for the Executive Summary and a lot of the work and material produced for the first assignment was reused for the second one. One main difference between the two assignments is the methodology used for the vulnerability assessment. Based on the tutor feedback we changed the methodology to a more standard approach to threat modelling using SRTIDE to identify vulnerabilities and assign security and business impacts, and risk severity to the identified vulnerabilities. STRIDE is one of the most reliable and widely accepted models to study the risks and using it proved to be a better mechanism for identifying and presenting vulnerabilities in a business manner. The scope and the audience also made a difference in the assignments. The executive summary was more business oriented and included information about compliance to GDPR and PCI-DSS as this is an important information for business managers.
+										</p>
+										
+										
+										<!--
 										<div class="row">
 											<div class="col-6 col-12-small">
 												<h3>Group Assignment Unit 6</h3>
 												<p>This was about network scanning.</p>
 												<ul class="actions">
-													<li><a target="blank" href="files/m2AssignmentU6.pdf" class="button small">Open</a></li>
+													<li><a target="blank" href="files/m2AssignmentU6.pdf" class="button small">Learn More</a></li>
 												</ul>
 											</div>
 											<div class="col-6 col-12-small">
 												<h3>Group Assignment Unit 11</h3>
-												<p>Executive summary to present vulnerabilities found in scranning and recommentdations to improve security.</p>
+												<p></p>
 												<ul class="actions">
-													<li><a target="blank" href="files/m2AssignmentU1.pdf" class="button small">Open</a></li>
+													<li><a target="blank" href="files/m2AssignmentU1.pdf" class="button small">Learn More</a></li>
 												</ul>
 											</div>
+										-->
 											<!-- Break -->
+										<!--
 											<div class="col-4 col-12-medium">
 												<h3>Collaborative Discussion 1</h3>
 												<p>Medical mannequin.</p>
 												<ul class="actions">
-													<li><a target="blank" href="files/m2AssignmentU6.pdf" class="button small">Open</a></li>
+													<li><a target="blank" href="https://www.my-course.co.uk/mod/hsuforum/discuss.php?d=266788" class="button small">Learn More</a></li>
 												</ul>
 											</div>
 											<div class="col-4 col-12-medium">
 												<h3>Collaborative Discussion 2</h3>
 												<p>Network scanning commands. Group activity.</p>
 												<ul class="actions">
-													<li><a target="blank" href="https://www.my-course.co.uk/mod/hsuforum/discuss.php?d=260504" class="button small">Open</a></li>
+													<li><a target="blank" href="https://www.my-course.co.uk/mod/hsuforum/discuss.php?d=260504" class="button small">Learn More</a></li>
 												</ul>
 											</div>
 											<div class="col-4 col-12-medium">
 												<h3>Collaborative Discussion 3</h3>
 												<p>GDPR case study.</p>
 												<ul class="actions">
-													<li><a target="blank" href="https://www.my-course.co.uk/mod/hsuforum/discuss.php?d=263293" class="button small">Open</a></li>
+													<li><a target="blank" href="https://www.my-course.co.uk/mod/hsuforum/discuss.php?d=263293" class="button small">Learn More</a></li>
 												</ul>
 											</div>
 										</div>
+										-->
 
 								</div>
 							</section>
